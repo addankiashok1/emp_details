@@ -1,5 +1,6 @@
 from db_connect import *
 import pandas as pd
+import datetime
 
 def get_data(conn):
     cur = conn.cursor()
